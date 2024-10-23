@@ -1,0 +1,10 @@
+### SEND REQ
+POST http://localhost:3000/rpc
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "method": "add",
+  "params": [5, 7],
+  "id": 1
+}
